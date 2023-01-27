@@ -9,8 +9,15 @@
       "methods": [
         "get",
         "post"
-      ],
-      "route": "{*route}"
+      ]
+    },
+    {
+      "name": "inputblob",
+      "type": "blob",
+      "dataType": "binary",
+      "path": "oc9/prediction_content_based.pickle",
+      "connection": "rsfunctiontest2_STORAGE",
+      "direction": "in"
     },
     {
       "type": "http",
